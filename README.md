@@ -1,27 +1,37 @@
 # Checklist
 
-Below is a checklist to reference when configuring an editor for a new
-language. This is intended for personal use and is obviously subject to a lot
-of opinions.
+This is for personal use only.
+
+Below is a checklist I reference when configuring an editor for a new language.
+
+## Jump to definition
+* Jump to definition for my project's source code
+* Jump to definition for the language's source code
+* Jump to definition for third-party packages' source code
+
+## Documentation
+* View my project's documentation
+* View the language's documentation
+* View third-party packages' documentation
+
+## Autocomplete
+* Autocomplete for my project
+* Autocomplete for the language I'm using
+* Autocomplete for third-party packages
+
+## Conditional
+These features depend on the language supporting them. For example, not all
+languages have REPLs.
+* Format source code on file save
+* Flycheck for linting
+* REPL access
 
 ## Non-negotiables
-
 * Up-to-date syntax highlighting
-* Reliable stdlib autocompletion
-* Display linting and error messages - via [flycheck] or something similar
-* Goto definition - file and project-wide source code jumping
-* Jump to tests - find or create test files for a given module
-* Snippets - function definitions, variable definitions, conditionals,
-	imports, etc
-* Vim-like text objects - function definitions, comment blocks, etc
+* Find or create test files for a given module
+* Snippets for function definitions, variable definitions, conditionals,
+  imports, etc.
 
-## Nice to haves
-
-* Find references via xref
-* REPL access
-* Autocompletion for popular libraries or ideally via Microsoft's Language
-	Server Protocol
-* Documentation browsing - ideally via `K` in vim-like environments
-* Support for jumping to the standard library's source code
-  
-[flycheck]: http://www.flycheck.org/en/latest/
+## Nice-to-haves
+* Vim text objects for things like: function definitions, comment blocks, etc.
+* Find usages via xref
